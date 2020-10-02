@@ -60,7 +60,7 @@
 ## Bug Fixes
 
 - Fixed custom domain not setting correct domain
-- Fixed wrong SDK method type in avatars browserrouter 
+- Fixed wrong SDK method type in avatars browser route 
 - Fixed bug denied public documents (*) to be accessed by guest users
 - Fixed cache-control issue not allowing collection UI to update properly
 - Fixed a bug where single permission tag in the console was not being saved
@@ -117,7 +117,7 @@
 
 ## Bug Fixes
 
-- Fixed bug where multiple unique attribute was allowed
+- Fixed bug where multiple unique attributes were allowed
 - Blocked forms from being submitted unlimited times
   
 # Version 0.5.2 (PRE-RELEASE)
@@ -157,7 +157,7 @@
 - File upload route (POST /v1/storage/files) now accept a single file per request
 - Added ENV vars to change system email sender name and address 
 - Usage for requests made by project admin in the console are not counted as API usage
-- Added ENV var to change default file upload size limit. New default value is 100MB.
+- Added ENV var to change default file upload size limit. New default value is 100MB
 - Added option to delete file directly from the dashboard
 - Added option to view file preview from the dashboard
 - Added option to add custom domains with auto SSL certificate generator
@@ -179,7 +179,7 @@
 
 ## Features
 
-- Added 5 new locales for local service and email templates (is, ml, th, fo, ph, pn)
+- Added 5 new locales for locale service and email templates (is, ml, th, fo, ph, pn)
 - 2 stage Docker build
 - Limit HTTP origin check only to browser integrations
 - Updated new Brexit date to 31-01-2020
@@ -187,7 +187,7 @@
 - Preparation for adding SameSite cookie option support
 - Using native Docker volumes for setup for better cross-platform support and easier management of read/write permissions
 - Added support for custom SSL certificates without needing to set a proxy
-- Added project: UID validation check when making an API call. This should help developers to understand our authentication errors better.
+- Added project UID validation check when making an API call. This should help developers to understand our authentication errors better
 - Updated ClamAV docker image to version 1.0.7
 - Updated MariaDB docker image to version 1.0.1
 - Core Docker image size reduced to 127MB
@@ -218,7 +218,7 @@
 
 ## Features
 
-- Added 19 new locales for local service and email templates (af, ar, bn, cz, hu, hy, jv, ko, lt, ml, no, ru, si, sq, sv, ta, vi, zh-cn, zh-tw)
+- Added 19 new locales for locale service and email templates (af, ar, bn, cz, hu, hy, jv, ko, lt, ml, no, ru, si, sq, sv, ta, vi, zh-cn, zh-tw)
 - New users service routes to allow updates pref and name update
 - New OAuth adapters (Amazon, Dropbox, Microsoft, Slack, VK)
 - Added support for ES6 require statements in JS SDK
@@ -243,7 +243,7 @@
 - Added option to disable abuse check and rate limits
 - Added input field with the server API endpoint for easy access
 - Added new OAuth providers for Google, Bitbucket, and GitLab
-- Added 15 new locales for local service and email templates (cat, de, es, fi, fr, gr, hi, id, it, nl, pt-br, pt-pt, ro, tr, ua)
+- Added 15 new locales for locale service and email templates (cat, de, es, fi, fr, gr, hi, id, it, nl, pt-br, pt-pt, ro, tr, ua)
 - Improved test coverage for the project and synced DEV & CI environments settings
 
 ## Bug Fixes
